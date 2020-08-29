@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "react-scripts start",
-    "start": "serve -s build"
+    "start": "serve -s build",
+    "heroku-postbuild": "npm run build"
   },
   "engines": {
     "node": "12.13.1",
